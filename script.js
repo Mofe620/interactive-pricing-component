@@ -11,7 +11,7 @@ function handleInputChange(e) {
   const val = target.value
  
 //   target.style.backgroundSize = (val - min) * 100 / (max - min) + '% 100%'
-  target.style.background = `linear-gradient(to right, hsl(174, 77%, 80%) 0%, 
+  target.style.background = `linear-gradient(to right, #fff 0%, 
                                                        hsl(174, 86%, 45%) ${val}%,  
                                                        #fff 51%, 
                                                        #fff 100%)`;
