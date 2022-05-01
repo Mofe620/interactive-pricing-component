@@ -75,9 +75,9 @@ input[type="range"]{
     background-size: 50% ;
     background-repeat: no-repeat;
     background: linear-gradient(to right, #fff 0%, 
-                                          hsl(174, 86%, 45%) 100%);
-                                          /*#fff 50%, 
-                                          #fff 100% */
+                                          hsl(174, 86%, 45%) 50%,
+                                          #fff 50%, 
+                                          #fff 100%);
 }
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;

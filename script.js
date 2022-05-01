@@ -16,22 +16,18 @@ function handleInputChange(e) {
   target.style.transition = 'background 0.2s ease';
   
   if (val == 0){
-    pages.textContent = "0";
-    price.textContent = "$0.00";
-  }
-  if (val == 20){
     pages.textContent = "10K";
     price.textContent = "$8.00";
   }
-  if (val == 40){
+  if (val == 25){
     pages.textContent = "50K";
     price.textContent = "$12.00";
   }
-  if (val == 60){
+  if (val == 50){
     pages.textContent = "100K";
     price.textContent = "$16.00";
   }
-  if (val == 80){
+  if (val == 75){
     pages.textContent = "500K";
     price.textContent = "$24.00";
   }
