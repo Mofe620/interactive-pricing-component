@@ -51,5 +51,12 @@ discount.addEventListener("change", function(){
     var newPrice = parseInt(price.textContent.slice(1)) * 0.75;
     price.textContent = "$" + newPrice + ".00";
   }
+
+  //Undo Discount is toggle is turned back to monthly billing
+  if (discount.checked == false && !originalPrices.includes(price.textContent)){
+    var newPrice = parseInt(price.textContent.slice(1)) * 1.33;
+    price.textContent = "$" + Math.round(newPrice) + ".00";
+  }
+
 })
   
